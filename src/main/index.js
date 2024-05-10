@@ -1,0 +1,1 @@
+export { handleGroupMessage } from './group.js'

@@ -1,0 +1,20 @@
+{
+  "name": "qq-bot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@baiducloud/qianfan": "^0.0.10",
+    "axios": "^1.6.8",
+    "openai": "^4.42.0",
+    "qq-group-bot": "^1.0.42",
+    "request": "^2.88.2"
+  }
+}
