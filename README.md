@@ -1,11 +1,51 @@
-## 使用说明
+<img src="./assets/readme/小桃侠.png" style="border-radius: 50%;"></img>
+<div style="text-align: center;font-size: 14px;font-weight: bold;">QQ-Bot</div>
 
-### 安装依赖包
-```bash
-npm install
-```
+# QQ-Bot
+一个用于自动化QQ消息和群组管理的机器人。
 
-### 填写机器人配置，在main.js文件中，填入自己的机器人ID和密钥
+## 简介
+QQ-Bot是一个开源项目，旨在通过自动化的方式简化QQ的日常使用和管理。它支持在线AI绘图、AI智能对话、实时翻译、调用API等功能。
+
+## 功能
+- **在线AI绘图**：根据用户输入的提示词，在线AI绘图，生成图片并发送给用户。
+- **AI智能对话**：通过AI智能对话，与机器人进行聊天。
+- **实时翻译**：实时翻译用户发送的消息。
+- **调用API实例**：通过调用API，获取AI绘图、AI智能对话、实时翻译等结果。
+
+## 安装
+1. 克隆仓库：`git clone https://github.com/Lonely-bear/qq-bot`
+2. 安装依赖：`npm install`
+3. 启动机器人：`npm start`
+
+## 截图
+<div style="text-align: center;font-size: 14px;font-weight: bold;">在线AI绘图</div>
+
+![在线AI绘图](./assets/readme/在线AI绘图.png "在线AI绘图")
+
+<div style="text-align: center;font-size: 14px;font-weight: bold;">AI智能对话</div>
+
+![AI智能对话](./assets/readme/AI智能对话.png "AI智能对话")
+
+<div style="text-align: center;font-size: 14px;font-weight: bold;">实时翻译</div>
+
+![实时翻译](./assets/readme/实时翻译.png "实时翻译")
+
+<div style="text-align: center;font-size: 14px;font-weight: bold;">调用API实例</div>
+
+![调用API实例](./assets/readme/调用API实例.png "调用API实例")
+## 如何贡献
+如果你想为QQ-Bot贡献代码，请提交PR。
+
+## 许可证
+本项目使用[MIT许可证](LICENSE)。
+
+## 联系方式
+- QQ群1: 677987033  (未满)
+- QQ群2: 729571768	(未满)
+
+## 项目配置
+##### 填写机器人配置，在main.js文件中，填入自己的机器人ID和密钥
 main.js
 ```javascript
 const botConfig = {
@@ -29,12 +69,12 @@ const botConfig = {
 };
 ```
 
-### 运行程序
-```bash
-npm start
-```
+## 测试
+在QQ机器人管理端的沙箱配置中，配置一个测试的群号，在群里添加该测试机器人，即可进行测试使用.
 
-### 此时在QQ机器人管理端的沙箱配置中，配置一个测试的群号，在群里添加该测试机器人，即可进行测试使用.
-
-## qq-group-bot 开源库地址
-[qq-group-bot 开发文档](https://lc-cn.github.io/qq-group-bot/)
+## 贡献库
+* axios
+* openai
+* @baiducloud/qianfan
+* request
+* qq-group-bot: [https://github.com/lc-cn/qq-group-bot](https://github.com/lc-cn/qq-group-bot)
